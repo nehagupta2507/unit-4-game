@@ -1,0 +1,93 @@
+body {
+	background-image: url("../images/bkg1.jpg");
+    background-size: cover;
+}
+h1 {
+    background-color:palevioletred;
+	color: white;
+    margin-bottom: 10px;
+	border: solid 1px #ddd;
+	border-radius: 5px;
+    font-family: 'Faster One', cursive;
+    text-align: center;
+}
+#Instructions{
+    background-color:cadetblue;
+	color: white;
+	margin-bottom: 10px;
+	border: solid 1px #ddd;
+	border-radius: 5px;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+}
+#targetScore{
+    background-color:powderblue;
+	color: black;
+	margin-bottom: 10px;
+	border: solid 1px #ddd;
+    border-radius: 5px;
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+}
+
+#targetNumber, #user-Score {
+ font-size: 40px;
+ font-weight: bolder;
+}
+
+#win-Tracker, #Loss-Tracker{
+    font-size: 20px;
+ font-weight: bolder;
+
+}
+
+#tracker{
+    background-color:cornflowerblue;
+	color: black;
+    margin-bottom: 10px;
+    margin-left: 5px;
+	border: solid 1px #ddd;
+    border-radius: 10px;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+}
+#crystals {
+	margin-top: 10px;
+    margin-bottom:30px;
+}
+
+#C1, #C2, #C3, #C4{
+    width: 80px;
+    height: 80px;
+}
+
+#userScoreText{
+    background-color: lightpink;
+	color: black;
+    margin-bottom: 10px;
+	border: solid 1px #ddd;
+    border-radius: 10px;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+
+}
+#userScore{
+    background-color: lightpink;
+	color: black;
+	padding: 20px;
+    margin-bottom: 10px;
+	border: solid 1px #ddd;
+    border-radius: 10px;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+}
+.card-footer{
+    background-color: lightpink;
+	color: whitesmoke;
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    text-align: center;
+    bottom: 0px;
+}
+
+/* Add Media queries */
