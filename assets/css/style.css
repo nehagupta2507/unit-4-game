@@ -20,6 +20,18 @@ h1 {
     font-family: 'Tangerine', cursive;
     font-size: 25px;
 }
+
+#DisplayResult{
+    background-color: lightpink;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+	border: solid 1px #ddd;
+	border-radius: 5px;
+    text-align: center;
+}
 #targetScore{
     background-color:powderblue;
 	color: black;

@@ -58,16 +58,22 @@ $('#C4').on('click',function(){
 //Main Logic
 function checkStatus() {
 if (userTotal === computerNum){
-    alert ("Yay!!! you win");
+    //alert ("Yay!!! you win");
     console.log("Yay!!! you win");
     wins++;
-    reset();
+    //alert("Yay!!! you win");
+    $("#DisplayResult").html("Yay!!! you win");
+    setTimeout(reset, 2000);
 }
 else if (userTotal > computerNum){
     console.log("Oops! You Lose");
-    alert("Oops! You Lose");
     losses++;
-    reset();
+    //setTimeout(function() {reset()}, 5000);// delaying the reset
+    //setTimeout(reset, 2000); // same thing as above
+    $("#DisplayResult").html("Oops! You Lose");
+    setTimeout(reset, 2000);
+   // alert("Oops! You Lose");
+    
 
 }
 //Display stats
@@ -84,6 +90,7 @@ function reset() {
  $("#targetNumber").html(computerNum);
  userTotal =0;
  $("#user-Score").html(userTotal);
+ $("#DisplayResult").html("Good Luck again!!!");
 }
 
 //Need to figure out how to set timeout to display final total before resetting the game! working in mozilla but not in chrome!! WHY!!!!
